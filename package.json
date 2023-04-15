@@ -1,0 +1,19 @@
+{
+  "name": "curriculum_vitae",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yradouani/curriculum_vitae.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yradouani/curriculum_vitae/issues"
+  },
+  "homepage": "https://github.com/Yradouani/curriculum_vitae#readme"
+}

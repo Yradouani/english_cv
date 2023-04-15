@@ -1,0 +1,410 @@
+// $color-1 : rgb(43, 42, 48);
+$color-1 : rgb(28, 28, 30);
+// $color-2 : rgb(244, 184, 72);
+$color-2 :#0097b2;
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100;0,200;1,100&display=swap');
+
+// rgb(243, 213, 157)
+
+body {
+    display: flex;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+.qr_code {
+    width: 65%;
+    margin: 20px auto;
+}
+
+.icon_qr-code_container {
+    display: flex;
+
+    .qr_code {
+        margin: 0 25px 0 auto;
+        width: 30%;
+    }
+}
+
+.profil-skills-container {
+    width: 35%;
+    background-color: $color-1;
+    // padding-top: 180px;
+
+    .orange_container {
+        width: 100%;
+        height: 230px;
+        background: $color-1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+            color: $color-2;
+            font-family: 'Chivo Mono', monospace;
+            font-size: 40px;
+        }
+    }
+
+    .img-container {
+        width: 65%;
+        height: 280px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 2px solid black;
+        margin: 20px auto;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    h3 {
+        color: $color-2;
+        padding: 10px;
+        border: 2px solid $color-2;
+        margin: 20px;
+    }
+
+    .icon-container {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        margin: 10px 22px;
+    }
+
+    .icon {
+        margin: 5px 0;
+        display: flex;
+    }
+
+    i {
+        display: flex;
+    }
+
+    .profil-information {
+        margin: 0 0 0 15px;
+        font-weight: 400;
+        font-size: 17px;
+        font-family: 'Roboto', Arial, Helvetica, sans-serif;
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+
+    .languages-container {
+        color: white;
+
+        .html,
+        .css,
+        .sass,
+        .js,
+        .vue,
+        .react,
+        .node,
+        .python,
+        .sql,
+        .java {
+            margin: 5px 23px;
+            display: flex;
+            justify-content: space-between;
+            width: 90%;
+
+            span {
+                font-weight: 400;
+            }
+        }
+
+        .html,
+        .css,
+        .sass,
+        .python {
+
+            .dot-1,
+            .dot-2,
+            .dot-3,
+            .dot-4 {
+                color: $color-2;
+            }
+        }
+
+        .react,
+        .js,
+        .node,
+
+        .sql {
+
+            .dot-1,
+            .dot-2,
+            .dot-3 {
+                color: $color-2;
+            }
+        }
+
+        .vue,
+        .java {
+
+            .dot-1,
+            .dot-2 {
+                color: $color-2;
+            }
+        }
+
+        // .java {
+        //     .dot-1 {
+        //         color: $color-2;
+        //     }
+        // }
+
+        .dot-container {
+            display: flex;
+            margin: 0 20px 0 10px;
+
+            i {
+                margin: 0 5px;
+            }
+        }
+    }
+
+    .skills-container {
+        color: white;
+
+        .text-skills {
+            display: flex;
+            flex-direction: column;
+            margin: 0 23px;
+
+            .text-skills-paragraph {
+                margin: 5px 0;
+            }
+        }
+    }
+
+    .soft-skills-container {
+        color: white;
+
+        .text-soft-skills {
+            display: flex;
+            flex-direction: column;
+            margin: 0 23px;
+
+            .text-skills-paragraph {
+                margin: 5px 0;
+            }
+        }
+    }
+
+    .hobbies-container {
+        color: white;
+
+        .text-hobbies {
+            display: flex;
+            flex-direction: column;
+            margin: 0 23px;
+
+            .text-hobbies-paragraph {
+                margin: 5px 0;
+            }
+        }
+    }
+
+    .lang-container {
+        color: white;
+        margin-bottom: 50px;
+
+        .text-lang {
+            display: flex;
+            flex-direction: column;
+            margin: 0 23px;
+
+            .text-lang-paragraph {
+                margin: 5px 0;
+            }
+        }
+    }
+}
+
+.experience-container {
+    width: 70%;
+
+    .header-container {
+        background-color: $color-2;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        h1 {
+            border: 2px solid black;
+            padding: 40px 30px 55px;
+            width: 70%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1;
+            position: relative;
+            font-size: 26px;
+            flex-direction: column;
+
+            hr {
+                width: 80%;
+                color: $color-1;
+            }
+
+            span {
+                text-align: center;
+                font-size: 24px;
+            }
+        }
+
+        .dev-web {
+            position: absolute;
+            z-index: 2;
+            bottom: 45px;
+            background-color: $color-2;
+            padding: 0 15px;
+            font-size: 21px;
+            text-align: center;
+        }
+    }
+
+    .formation-experience-container {
+        width: 90%;
+        margin: 30px;
+
+        .presentation {
+            margin-top: 40px;
+        }
+
+        .experiences {
+            margin-top: 40px;
+
+            span {
+                font-weight: bold;
+            }
+
+            p {
+                margin: 10px 0px 20px 170px;
+                line-height: 25px;
+            }
+
+            .text-container {
+                display: flex;
+                position: relative;
+
+                .date {
+                    margin-right: 70px;
+                    border: 2px solid $color-1;
+                    padding: 5px 10px;
+
+                    span {
+                        border: 1px solid $color-1;
+                        padding: 5px 20px;
+                        margin-right: 30px;
+
+                    }
+                }
+
+                .date-1 {
+                    position: absolute;
+                    left: 0;
+                    top: -10px;
+                }
+
+                .date-2 {
+                    position: absolute;
+                    left: 0;
+                    top: 95px;
+                }
+
+                .date-3 {
+                    position: absolute;
+                    left: 0;
+                    top: 270px;
+                }
+
+                .date-4 {
+                    position: absolute;
+                    left: 0;
+                    top: 448px;
+                }
+
+                .experience-title {
+                    margin: 0;
+
+                    .ecommerce {
+                        margin-right: 40px;
+                    }
+                }
+
+                .experience-title-dev {
+                    margin: 20px;
+                }
+            }
+        }
+
+        .line_bellow {
+            width: 70%;
+            margin: 0 0 30px 0;
+
+            hr {
+                height: 3px;
+                background-color: $color-2;
+                border: none;
+            }
+
+            .hr-2,
+            .hr-3 {
+                height: 2.5px;
+            }
+        }
+
+        .formation {
+            line-height: 40px;
+
+            .date {
+                font-weight: bold;
+                border: 1px solid $color-1;
+                padding: 5px 20px;
+                margin-right: 20px;
+            }
+
+            .formation-text-container {
+                display: flex;
+            }
+
+            p {
+                font-weight: bold;
+            }
+        }
+
+        .certification {
+            line-height: 30px;
+            margin-top: 40px;
+
+            h2 {
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    .projects {
+        margin-left: 100px;
+
+        .strong {
+            font-weight: bold;
+        }
+    }
+
+
+}
+
+.stage {
+    margin-right: 15px !important;
+}
