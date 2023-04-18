@@ -108,7 +108,8 @@ body {
         .node,
         .python,
         .sql,
-        .java {
+        .java,
+        .php {
             margin: 5px 23px;
             display: flex;
             justify-content: space-between;
@@ -135,7 +136,7 @@ body {
         .react,
         .js,
         .node,
-
+        .php,
         .sql {
 
             .dot-1,

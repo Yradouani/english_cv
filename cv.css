@@ -102,7 +102,8 @@ body {
 .profil-skills-container .languages-container .node,
 .profil-skills-container .languages-container .python,
 .profil-skills-container .languages-container .sql,
-.profil-skills-container .languages-container .java {
+.profil-skills-container .languages-container .java,
+.profil-skills-container .languages-container .php {
   margin: 5px 23px;
   display: flex;
   justify-content: space-between;
@@ -118,7 +119,8 @@ body {
 .profil-skills-container .languages-container .node span,
 .profil-skills-container .languages-container .python span,
 .profil-skills-container .languages-container .sql span,
-.profil-skills-container .languages-container .java span {
+.profil-skills-container .languages-container .java span,
+.profil-skills-container .languages-container .php span {
   font-weight: 400;
 }
 
@@ -150,6 +152,9 @@ body {
 .profil-skills-container .languages-container .node .dot-1,
 .profil-skills-container .languages-container .node .dot-2,
 .profil-skills-container .languages-container .node .dot-3,
+.profil-skills-container .languages-container .php .dot-1,
+.profil-skills-container .languages-container .php .dot-2,
+.profil-skills-container .languages-container .php .dot-3,
 .profil-skills-container .languages-container .sql .dot-1,
 .profil-skills-container .languages-container .sql .dot-2,
 .profil-skills-container .languages-container .sql .dot-3 {
