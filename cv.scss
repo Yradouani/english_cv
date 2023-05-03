@@ -1,6 +1,7 @@
 // $color-1 : rgb(43, 42, 48);
 // $color-1 : rgb(28, 28, 30);
-$color-1 : rgb(4, 4, 37);
+// $color-1 : rgb(4, 4, 37);
+$color-1 : rgb(242, 242, 246);
 // $color-2 : rgb(244, 184, 72);
 $color-2 :#0097b2;
 @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100;0,200;1,100&display=swap');
@@ -72,7 +73,8 @@ body {
     .icon-container {
         display: flex;
         flex-direction: column;
-        color: white;
+        // color: white;
+        color: rgb(0, 0, 0);
         margin: 10px 22px;
     }
 
@@ -98,7 +100,8 @@ body {
     }
 
     .languages-container {
-        color: white;
+        // color: white;
+        color: rgb(0, 0, 0);
 
         .html,
         .css,
@@ -173,7 +176,8 @@ body {
     }
 
     .skills-container {
-        color: white;
+        // color: white;
+        color: rgb(0, 0, 0);
 
         .text-skills {
             display: flex;
@@ -187,7 +191,8 @@ body {
     }
 
     .soft-skills-container {
-        color: white;
+        // color: white;
+        color: rgb(0, 0, 0);
 
         .text-soft-skills {
             display: flex;
@@ -201,7 +206,8 @@ body {
     }
 
     .hobbies-container {
-        color: white;
+        // color: white;
+        color: rgb(0, 0, 0);
 
         .text-hobbies {
             display: flex;
@@ -215,7 +221,8 @@ body {
     }
 
     .lang-container {
-        color: white;
+        // color: white;
+        color: rgb(0, 0, 0);
         margin-bottom: 50px;
 
         .text-lang {
