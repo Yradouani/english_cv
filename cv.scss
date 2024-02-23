@@ -127,7 +127,8 @@ body {
         .html,
         .css,
         .sass,
-        .python {
+        .python,
+        .sql {
 
             .dot-1,
             .dot-2,
@@ -140,8 +141,7 @@ body {
         .react,
         .js,
         .node,
-        .php,
-        .sql {
+        .php {
 
             .dot-1,
             .dot-2,
@@ -263,7 +263,10 @@ body {
 
             hr {
                 width: 80%;
-                color: $color-1;
+                color: black;
+                border: black;
+                height: 1px;
+                background: black;
             }
 
             span {

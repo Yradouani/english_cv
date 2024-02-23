@@ -139,7 +139,11 @@ body {
 .profil-skills-container .languages-container .python .dot-1,
 .profil-skills-container .languages-container .python .dot-2,
 .profil-skills-container .languages-container .python .dot-3,
-.profil-skills-container .languages-container .python .dot-4 {
+.profil-skills-container .languages-container .python .dot-4,
+.profil-skills-container .languages-container .sql .dot-1,
+.profil-skills-container .languages-container .sql .dot-2,
+.profil-skills-container .languages-container .sql .dot-3,
+.profil-skills-container .languages-container .sql .dot-4 {
   color: #0097b2;
 }
 
@@ -154,10 +158,7 @@ body {
 .profil-skills-container .languages-container .node .dot-3,
 .profil-skills-container .languages-container .php .dot-1,
 .profil-skills-container .languages-container .php .dot-2,
-.profil-skills-container .languages-container .php .dot-3,
-.profil-skills-container .languages-container .sql .dot-1,
-.profil-skills-container .languages-container .sql .dot-2,
-.profil-skills-container .languages-container .sql .dot-3 {
+.profil-skills-container .languages-container .php .dot-3 {
   color: #0097b2;
 }
 
@@ -263,7 +264,10 @@ body {
 
 .experience-container .header-container h1 hr {
   width: 80%;
-  color: #f2f2f6;
+  color: black;
+  border: black;
+  height: 1px;
+  background: black;
 }
 
 .experience-container .header-container h1 span {
