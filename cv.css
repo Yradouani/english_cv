@@ -242,7 +242,7 @@ body {
 .experience-container .header-container {
   background-color: #0097b2;
   width: 100%;
-  height: 300px;
+  height: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -250,29 +250,31 @@ body {
 }
 
 .experience-container .header-container h1 {
-  border: 2px solid black;
   padding: 40px 30px 55px;
   width: 70%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: end;
   z-index: 1;
   position: relative;
-  font-size: 26px;
+  font-size: 40px;
   flex-direction: column;
+  font-family: 'Source Code Pro', monospace;
+  color: white;
 }
 
 .experience-container .header-container h1 hr {
   width: 80%;
-  color: black;
   border: black;
   height: 1px;
-  background: black;
+  background: white;
+  margin: 20px 0;
+  color: white;
 }
 
 .experience-container .header-container h1 span {
   text-align: center;
-  font-size: 24px;
+  font-size: 24px !important;
 }
 
 .experience-container .header-container .dev-web {
