@@ -173,6 +173,14 @@ body {
                 margin: 0 5px;
             }
         }
+
+        .language_subtitle {
+            font-weight: bold;
+        }
+
+        .languages-container__text {
+            margin: 20px;
+        }
     }
 
     .skills-container {
@@ -258,7 +266,7 @@ body {
             align-items: end;
             z-index: 1;
             position: relative;
-            font-size: 40px;
+            font-size: 50px;
             flex-direction: column;
             font-family: 'Source Code Pro', monospace;
             color: white;
